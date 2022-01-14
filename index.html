@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+			h2 {
+				color: #DADD26;
+				text-align: center;
+			}
+		</style>
+	</head>
+	<title>...os ard!</title>
+	<body style="background-color:#292929;">
+		<script type="text/javascript">
+			let greeting = [
+				"おやすみ",
+				"Спокойной ночи",
+				"안녕히 주무세요",
+				"Oíche mhaith",
+				"晚安"
+				];
+			selection = Math.floor(Math.random() * greeting.length);
+			elm = document.createElement('h2');
+			elm.innerText = greeting[selection];
+			document.body.appendChild(elm);
+		</script>
+	</body>
+</html>
