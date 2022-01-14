@@ -2,26 +2,41 @@
 <html>
 	<head>
 		<style>
-			h2 {
+			body{
+				background-color: #292929;
 				color: #DADD26;
 				text-align: center;
+				font-family: sans-serif;
+				font-weight: bold;
+			}
+			.greet {
+				font-size: 40px;
+			}
+			.email a:link,
+			.email a:visited,
+			.email a:hover,
+			.email a:active {
+				text-decoration: none;
+				color: #DADD26;
+				font-size: 12px;
 			}
 		</style>
 	</head>
 	<title>...os ard!</title>
-	<body style="background-color:#292929;">
+	<body>
+		<div class='greet'></div>
+		<div class='email'></div>
 		<script type="text/javascript">
-			let greeting = [
-				"おやすみ",
-				"Спокойной ночи",
-				"안녕히 주무세요",
-				"Oíche mhaith",
-				"晚安"
+			everything = [
+				{ "greet":"おやすみ", "email":"こんにちは" },
+				{ "greet":"Спокойной ночи", "email":"Привет" },
+				{ "greet":"안녕히 주무세요", "email":"안녕하세요" },
+				{ "greet":"Oíche mhaith", "email":"Dia dhuit" },
+				{ "greet":"晚安", "email":"你好" },
 				];
-			selection = Math.floor(Math.random() * greeting.length);
-			elm = document.createElement('h2');
-			elm.innerText = greeting[selection];
-			document.body.appendChild(elm);
+			selection = Math.floor(Math.random() * everything.length);
+			document.querySelector('.greet').innerText = everything[selection].greet;
+			document.querySelector('.email').innerHTML = '<a href="mailto:hello@osard.jp">' + everything[selection].email + '@</a>';
 		</script>
 	</body>
 </html>
