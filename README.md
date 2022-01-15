@@ -1,3 +1,2 @@
 # ..os ard!
-[out
- loud]
+osard.jp
