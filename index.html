@@ -1,10 +1,11 @@
 <!DOCTYPE html>
+				<!-- color: #DADD26; -->
 <html>
 	<head>
 		<style>
 			body{
-				background-color: #292929;
-				color: #DADD26;
+				background-color: #000000EE;
+				color: #DADD2A;
 				text-align: center;
 				font-family: sans-serif;
 				font-weight: bold;
@@ -17,7 +18,7 @@
 			.email a:hover,
 			.email a:active {
 				text-decoration: none;
-				color: #DADD26;
+				color: #424242;
 				font-size: 12px;
 			}
 		</style>
@@ -29,11 +30,11 @@
 		<div class='email'></div>
 		<script type="text/javascript">
 			everything = [
-				{ "greet":"おやすみ", "email":"こんにちは" },
-				{ "greet":"Спокойной ночи", "email":"Привет" },
-				{ "greet":"잘자", "email":"안녕하세요" },
-				{ "greet":"Oíche mhaith", "email":"Dia dhuit" },
-				{ "greet":"晚安", "email":"你好" },
+				{ "greet":"注意", "email":"こんにちは" },
+				{ "greet":"осторожность", "email":"Привет" },
+				{ "greet":"주의", "email":"안녕하세요" },
+				{ "greet":"Fógra", "email":"Dia dhuit" },
+				{ "greet":"警告", "email":"你好" },
 				];
 			selection = Math.floor(Math.random() * everything.length);
 			document.querySelector('.greet').innerText = everything[selection].greet;
