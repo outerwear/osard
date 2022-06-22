@@ -3,12 +3,14 @@ body {
 	color: DimGrey;
 	text-align: center;
 	font-family: 'Cutive Mono';
-	font-size: 14px;
+	font-size: 15px;
 }
 table td + td { 
 	border-left:1px solid DimGrey;
 	padding: 0 15px;
 	vertical-align: top;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .contact a:link,
