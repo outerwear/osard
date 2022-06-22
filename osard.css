@@ -1,0 +1,48 @@
+body{
+	background-color: #000000EE;
+	color: DimGrey;
+	text-align: center;
+	font-family: 'Cutive Mono';
+	font-size: 16px;
+}
+table td + td { 
+	border-left:1px solid DimGrey;
+	padding: 0 15px;
+	vertical-align: top;
+}
+
+.contact a:link,
+.contact a:visited,
+.contact a:active {
+	text-decoration: none;
+	color: DimGrey;
+}
+.contact a:hover {
+	text-decoration: none;
+	color: FloralWhite;
+}
+.contact table {
+	margin-left: auto;
+	margin-right: auto;
+}
+.contact td { 
+	border: none;
+	text-align: left;
+	padding: 2px;
+}
+
+.topnav a:link,
+.topnav a:visited {
+	text-decoration: none;
+	color: DimGrey;
+}
+
+.topnav a:hover,
+.topnav a:active {
+	text-decoration: none;
+	color: FloralWhite;
+}
+
+.carpart {
+	text-align: left;
+}
