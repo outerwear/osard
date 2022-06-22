@@ -1,4 +1,5 @@
-body{
+@import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap');
+body {
 	background-color: #000000EE;
 	color: DimGrey;
 	text-align: center;
@@ -45,4 +46,10 @@ table td + td {
 
 .carpart {
 	text-align: left;
+}
+
+.info {
+	margin-left: auto;
+	margin-right: auto;
+	width: 666px;
 }
