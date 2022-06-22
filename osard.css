@@ -3,7 +3,7 @@ body {
 	color: DimGrey;
 	text-align: center;
 	font-family: 'Cutive Mono';
-	font-size: 16px;
+	font-size: 14px;
 }
 table td + td { 
 	border-left:1px solid DimGrey;
