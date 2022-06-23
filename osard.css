@@ -1,8 +1,8 @@
 body {
 	background-color: #000000EE;
-	color: DimGrey;
+	color: Grey;
 	text-align: center;
-	font-family: 'Cutive Mono';
+	font-family: 'Cutive Mono', monospace;
 	font-size: 15px;
 }
 table td + td { 
@@ -17,7 +17,7 @@ table td + td {
 .contact a:visited,
 .contact a:active {
 	text-decoration: none;
-	color: DimGrey;
+	color: Grey;
 }
 .contact a:hover {
 	text-decoration: none;
@@ -36,7 +36,7 @@ table td + td {
 .topnav a:link,
 .topnav a:visited {
 	text-decoration: none;
-	color: DimGrey;
+	color: Grey;
 }
 
 .topnav a:hover,
