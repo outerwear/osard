@@ -61,6 +61,20 @@ table td + td {
 	margin-right: auto;
 }
 
+.phototag ,
+.phototag a:active,
+.phototag a:link,
+.phototag a:visited {
+	text-decoration: none;
+	font-size: 10px;
+	color: Grey;
+}
+.phototag a:hover {
+	text-decoration: none;
+	font-size: 10px;
+	color: FloralWhite;
+}
+
 .zc6 {
 	width: 435px;
 	height: 225px;
