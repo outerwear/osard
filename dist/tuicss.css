@@ -1003,6 +1003,10 @@ input[type=button] {
 ::-webkit-scrollbar-thumb:hover {
   background-color: #00a8a8; }
 
+::.scroller {
+	width: 10px;
+	scrollbar-color: cyan #00a8a8;
+}
 /* Styles */
 .tui-scroll-blue ::-webkit-scrollbar-track {
   background-image: url(images/scroll-blue.png); }
