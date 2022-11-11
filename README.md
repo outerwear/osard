@@ -1,2 +1,1 @@
-# ..os ard!
 osard.jp

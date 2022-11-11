@@ -1,0 +1,56 @@
+@font-face {
+  font-family: 'IBM PS/55';
+  src: url(Web437_IBM_PS-55_re.woff) format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  font-family: 'IBM PS/55', monospace, sans-serif;
+}
+
+body {
+  background-color: #efefef;
+  font-size: 13px;
+}
+
+p {
+  max-width: 800px;
+  margin: 10px auto;
+  padding: 0;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 5px;
+  transform: skew(40deg)rotate(-10deg)rotateX(50deg)translate3d(0, 0, 0);
+   -webkit-perspective: 100px;
+    perspective: 100px;
+}
+
+ul {
+  float: none;
+  list-style-type: square;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  position: relative;
+  display: block;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: black;
+  color: white;
+}
+
+.n2 {
+  padding-left: 10px;
+}
