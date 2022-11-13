@@ -91,6 +91,12 @@ li.b {
 }
 
 .frc {
+  max-width: 400px;
   margin: 0;
-  padding: 100px;
+  padding: 69px;
+}
+
+.fnc {
+  margin: 4px;
+  padding: 69px;
 }
