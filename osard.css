@@ -52,6 +52,35 @@ a:hover {
   color: white;
 }
 
+table {
+  width: 100%;
+  max-width: 400px;
+  margin: 0;
+  font-size: 13px;
+}
+
+table, th, td {
+  border-collapse: collapse;
+  border: 1px solid black;
+}
+
 .n2 {
   padding-left: 10px;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.flc {
+  width: 100px;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.frc {
+  margin: 0;
+  padding: 100px;
 }
