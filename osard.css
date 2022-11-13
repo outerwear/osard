@@ -30,7 +30,6 @@ p {
 
 ul {
   float: none;
-  list-style-type: square;
   margin: 0;
   padding: 0;
 }
@@ -66,6 +65,17 @@ table, th, td {
 
 .n2 {
   padding-left: 10px;
+}
+
+ol.b {
+  padding: revert;
+  margin: 20px;
+}
+
+li.b {
+  display: list-item;
+  list-style-position: outside;
+  list-style-type: "✝";
 }
 
 .flex-container {
