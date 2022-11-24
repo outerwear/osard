@@ -12,15 +12,16 @@ html {
 }
 
 body {
-  background-color: #efefef;
-  font-size: 16px;
+  background-color: black;
+  font-size: 14px;
+  color: snow
 }
 
 p {
   max-width: 800px;
-  margin: 10px auto;
+  margin: 1px auto;
   padding: 0;
-  font-size: 24px;
+  font-size: 20px;
   text-align: center;
   letter-spacing: 5px;
   transform: skew(40deg)rotate(-10deg)rotateX(50deg)translate3d(0, 0, 0);
@@ -43,24 +44,24 @@ a,
 a:visited {
   cursor: pointer;
   text-decoration: none;
-  color: black;
+  color: snow;
 }
 
 a:hover {
-  background-color: black;
-  color: white;
+  background-color: snow;
+  color: black;
 }
 
 table {
   width: 100%;
   max-width: 400px;
   margin: 0;
-  font-size: 16px;
+  font-size: 14px;
 }
 
 table, th, td {
   border-collapse: collapse;
-  border: 1px solid black;
+  border: 1px solid snow;
 }
 
 .n2 {
@@ -70,12 +71,13 @@ table, th, td {
 ol.b {
   padding: revert;
   margin: 20px;
+  border: 1px solid snow;
 }
 
 li.b {
   display: list-item;
   list-style-position: outside;
-  list-style-type: "✝";
+  list-style-type: square;
 }
 
 .flex-container {
@@ -84,7 +86,7 @@ li.b {
 }
 
 .flc {
-  width: 110px;
+  width: 120px;
   height: 100vh;
   margin: 0;
   padding: 0;
