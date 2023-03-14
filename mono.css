@@ -1,0 +1,18 @@
+html {
+    text-transform: full-width;
+    font-family: monospace;
+}
+
+a {
+    color: black;
+}
+
+.ulOS {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.liOS {
+    display: inline;
+}
