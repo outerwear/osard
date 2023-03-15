@@ -1,12 +1,13 @@
 html {
     text-transform: full-width;
     font-family: monospace;
+    background-color: #208c71;
 }
 
 a {
     text-decoration: none;
-    background-color: black;
-    color: white;
+    background-color: #818181;
+    color: black;
 }
 
 .ulOS {
