@@ -4,6 +4,10 @@ html {
     background-color: #208c71;
 }
 
+nav {
+    line-height: 1.8em;
+}
+
 a {
     text-decoration: none;
     background-color: #818181;
