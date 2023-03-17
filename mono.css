@@ -1,7 +1,10 @@
 html {
     text-transform: full-width;
     font-family: monospace;
+    /*
     background-color: #208c71;
+    */
+    background-color: #008080;
 }
 
 nav {
