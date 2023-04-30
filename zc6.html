@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
 <head>
 <title>🮕 OS ARD</title>
@@ -45,6 +46,31 @@
 </tr>
 <table>
 </p>
+<dialog id="zc6-dialog-box" style="border: none !important; padding: 0">
+<div class="window" id="zc6-dialog" role="dialog" aria-labelledby="zc6-dialog-title" style="max-width: 800px">
+  <div class="title-bar">
+    <div class="title-bar-text" id="zc6-dialog-title">Images - Subaru BRZ</div>
+    <div class="title-bar-controls">
+      <button aria-label="Close" onclick="zc6close()"></button>
+    </div>
+  </div>
+  <div class="window-body">
+  <img style="max-height: 100%; max-width: 100%; object-fit: contain" src="img/b2.zc6.crop.jpeg"/>
+  </div>
+  <footer style="text-align: right">
+    <button onclick="zc6close()">Cancel</button>
+  </footer>
+</div>
+</dialog>
+<button onclick="zc6photo()">Photographs</button><br><br>
+<script>
+function zc6photo() {
+  document.getElementById("zc6-dialog-box").showModal();
+}
+function zc6close() {
+   document.getElementById("zc6-dialog-box").close();
+}
+</script>
 <ul class="tree-view">
   <li>Build Artifacts</li>
   <li>
