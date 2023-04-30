@@ -45,6 +45,31 @@
 </tr>
 <table>
 </p>
+<dialog id="y32-dialog-box" style="border: none !important; padding: 0">
+<div class="window" id="y32-dialog" role="dialog" aria-labelledby="y32-dialog-title" style="max-width: 800px">
+  <div class="title-bar">
+    <div class="title-bar-text" id="y32-dialog-title">Images - Subaru BRZ</div>
+    <div class="title-bar-controls">
+      <button aria-label="Close" onclick="y32close()"></button>
+    </div>
+  </div>
+  <div class="window-body">
+  Nothing.
+  </div>
+  <footer style="text-align: right">
+    <button onclick="y32close()">Cancel</button>
+  </footer>
+</div>
+</dialog>
+<button onclick="y32photo()">Images</button><br><br>
+<script>
+function y32photo() {
+  document.getElementById("y32-dialog-box").showModal();
+}
+function y32close() {
+   document.getElementById("y32-dialog-box").close();
+}
+</script>
 <ul class="tree-view">
   <li>Build Artifacts</li>
   <li>
