@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
 <head>
 <title>🮕 OS ARD</title>
@@ -43,7 +44,7 @@
 <td>Chassis Code</td>
 <td>Y32</td>
 </tr>
-<table>
+</table>
 </p>
 <dialog id="y32-dialog-box" style="border: none !important; padding: 0">
 <div class="window" id="y32-dialog" role="dialog" aria-labelledby="y32-dialog-title" style="max-width: 800px">
@@ -61,13 +62,108 @@
   </footer>
 </div>
 </dialog>
-<button onclick="y32photo()">Images</button><br><br>
+<dialog id="y32-info-box" style="border: none !important; padding: 0">
+<div class="window" id="y32-info" role="dialog" aria-labelledby="y32-info-title" style="max-width: 400px">
+  <div class="title-bar">
+    <div class="title-bar-text" id="y32-info-title">Data Sheet Translation</div>
+    <div class="title-bar-controls">
+      <button aria-label="Close" onclick="y32infoclose()"></button>
+    </div>
+  </div>
+  <div class="window-body">
+  <p>
+  Discovering modern equals of parts for Y32 chassis Cedric/Gloria has been difficult due to little English
+  information online. Below is a database for everything confirmed by Os Ard.<br><br>
+  <b>Note:</b>
+  <ol>
+  <li>Fog lamp original bulb may have bullet connector and will need conversion to spade type!</li>
+  <li>Some parts are shared across Nissan platforms:</li>
+    <ol type="a">
+    <li>Same as RB25DET (R33)</li>
+    <li>Same as VG30DETT (Z32)</li>
+    </ol>
+  </ol>
+  </p>
+  <br>
+      <div class="sunken-panel" style="max-height: 110px">
+      <table style="width: 100%">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>JP Part #</th>
+            <th>Modern #</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Headlamp (brick) Bulb</td>
+            <td>AY080-10003</td>
+            <td>H4</td>
+          </tr>
+          <tr>
+            <td>Headlamp (brick) Side Bulb</td>
+            <td>26260-50Y00</td>
+            <td>T10/194/168</td>
+          </tr>
+          <tr>
+            <td>Winker Bulb</td>
+            <td>AY080-00090</td>
+            <td>T10/194/168</td>
+          </tr>
+          <tr>
+            <td>Fog Bulb</td>
+            <td>26719+A</td>
+            <td>H3</td>
+          </tr>
+          <tr>
+            <td>Front Turn (in fog) Bulb</td>
+            <td>26719</td>
+            <td>S25/PY21W</td>
+          </tr>
+          <tr>
+            <td>Rear Brake Bulb</td>
+            <td>26550C</td>
+            <td>T20/7443</td>
+          </tr>
+          <tr>
+            <td>Rear Turn Bulb</td>
+            <td>26550CA</td>
+            <td>T20/7440</td>
+          </tr>
+          <tr>
+            <td>Engine Oil</td>
+            <td>N/A</td>
+            <td>10w-40; 4qt</td>
+          </tr>
+          <tr>
+            <td>Oil Filter [2.a, 2.b]</td>
+            <td>AY100-NS007</td>
+            <td>15208-RN021</td>
+          </tr>
+        </tbody>
+      </table>
+      </div>
+    <br>
+  </div>
+  <footer style="text-align: right">
+    <button onclick="y32infoclose()">Cancel</button>
+  </footer>
+</div>
+</dialog>
+<button onclick="y32photo()">Images</button> <button onclick="y32info()">Data Sheet</button>
+<br><br>
 <script>
 function y32photo() {
   document.getElementById("y32-dialog-box").showModal();
 }
 function y32close() {
-   document.getElementById("y32-dialog-box").close();
+  document.getElementById("y32-dialog-box").close();
+}
+function y32info() {
+  document.getElementById("y32-info-box").showModal();
+}
+function y32infoclose() {
+   document.getElementById("y32-info-box").close();
 }
 </script>
 <ul class="tree-view">
