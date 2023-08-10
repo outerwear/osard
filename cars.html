@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>OS ARD SYSTEMS</title>
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" href="https://unpkg.com/98.css" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body style="background-color:#008080">
+<div class="window" style="width: fit-content; max-width:800px; min-width: 250px">
+  <div class="title-bar">
+    <div class="title-bar-text">🌜Os Ard - Low Enjoyment</div>
+    <div class="title-bar-controls">
+      <button aria-label="Minimize"></button>
+      <button aria-label="Maximize"></button>
+      <button aria-label="Close"></button>
+    </div>
+  </div>
+  <nav style="line-height: 1.6em">
+    <ul style="list-style-type:none; margin: 0; padding: 0; border-bottom: 1px solid grey">
+    <li style="display:inline; padding: 2px"><a style="text-decoration: none; color: #222222" href="index.html"><u>H</u>ome</a></li>
+    <li style="display:inline; padding: 2px"><a style="text-decoration: none; color: #222222" href="cars.html"><u>C</u>ars</a></li>
+    <li style="display:inline; padding: 2px"><a style="text-decoration: none; color: #222222" href="media.html"><u>M</u>edia</a></li>
+    <li style="display:inline; padding: 2px"><a style="text-decoration: none; color: #222222" href="store.html"><u>O</u>nline Store</a></li>
+    </ul>
+  </nav>
+  <div class="window-body">
+<p>
+Auto Produce
+<hr />
+<table style="background-color: #c0c0c0">
+<tr>
+<td>Make</td>
+<td>Nissan</td>
+</tr>
+<tr>
+<td>Model</td>
+<td>Cedric</td>
+</tr>
+<tr>
+<td>Year of Mfg</td>
+<td>1992</td>
+</tr>
+<tr>
+<td>Chassis Code</td>
+<td>Y32</td>
+</tr>
+</table>
+</p>
+<dialog id="y32-dialog-box" style="border: none !important; padding: 0">
+<div class="window" id="y32-dialog" role="dialog" aria-labelledby="y32-dialog-title" style="max-width: 800px">
+  <div class="title-bar">
+    <div class="title-bar-text" id="y32-dialog-title">Images - Nissan Cedric</div>
+    <div class="title-bar-controls">
+      <button aria-label="Close" onclick="y32close()"></button>
+    </div>
+  </div>
+  <div class="window-body">
+   📷: Konica Minolta QM-3501<br>
+    <div class="sunken-panel" style="max-height: 400px">
+    <img style="max-height: 100%; max-width: 100%; object-fit: contain" src="img/01y32.jpg"/><br>
+    <img style="max-height: 100%; max-width: 100%; object-fit: contain" src="img/02y32.jpg"/><br>
+    </div>
+    <br>
+    <section class="field-row" style="justify-content: flex-end">
+    <button onclick="y32close()">Cancel</button>
+    </section>
+  </div>
+</div>
+</dialog>
+<dialog id="y32-info-box" style="border: none !important; padding: 0">
+<div class="window" id="y32-info" role="dialog" aria-labelledby="y32-info-title" style="max-width: 400px">
+  <div class="title-bar">
+    <div class="title-bar-text" id="y32-info-title">Data Sheet Translation</div>
+    <div class="title-bar-controls">
+      <button aria-label="Close" onclick="y32infoclose()"></button>
+    </div>
+  </div>
+  <div class="window-body">
+  <p>
+  Discovering modern equals of parts for Y32 chassis Cedric/Gloria has been difficult due to little English
+  information online. Below is a database for everything confirmed by Os Ard.<br><br>
+  <b>Note:</b>
+  <ol>
+  <li>Fog lamp original bulb may have bullet connector and will need conversion to spade type.</li>
+  <li>Some parts are shared across Nissan platforms:</li>
+    <ol type="a">
+    <li>Same as RB25DET (R33)</li>
+    <li>Same as VG30DETT (Z32)</li>
+    </ol>
+  <li>Cedric had "brick" style headlamps with parking lights whereas Gloria had "round" style headlights that
+        integrate the turn signal. There are some differences in the bulb sizes due to split of hi/lo beams
+        and parking lights being in the fog lamp assembly for the Gloria.</li>
+  </ol>
+  </p>
+  <br>
+      <div class="sunken-panel" style="max-height: 110px">
+      <table style="width: 100%">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>JP Part #</th>
+            <th>Modern #</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Headlamp (brick) Bulb</td>
+            <td>AY080-10003</td>
+            <td>H4</td>
+          </tr>
+          <tr>
+            <td>Headlamp (brick) Side Bulb</td>
+            <td>26260-50Y00</td>
+            <td>T10/194/168</td>
+          </tr>
+          <tr>
+            <td>Winker Bulb</td>
+            <td>AY080-00090</td>
+            <td>T10/194/168</td>
+          </tr>
+          <tr>
+            <td>Fog Bulb [1]</td>
+            <td>26719+A</td>
+            <td>H3</td>
+          </tr>
+          <tr>
+            <td>Front Turn (in fog) Bulb</td>
+            <td>26719</td>
+            <td>S25/PY21W</td>
+          </tr>
+          <tr>
+            <td>Rear Brake Bulb</td>
+            <td>26550C</td>
+            <td>T20/7443</td>
+          </tr>
+          <tr>
+            <td>Rear Turn Bulb</td>
+            <td>26550CA</td>
+            <td>T20/7440</td>
+          </tr>
+          <tr>
+            <td>Engine Oil</td>
+            <td>N/A</td>
+            <td>10w-40; 4qt</td>
+          </tr>
+          <tr>
+            <td>Oil Filter [2.a, 2.b]</td>
+            <td>AY100-NS007</td>
+            <td>15208-RN021</td>
+          </tr>
+          <tr>
+            <td>Alternator (VG30DET)</td>
+            <td>23100-0P600</td>
+            <td>Nissan Quest</td>
+          </tr>
+        </tbody>
+      </table>
+      </div>
+    <br>
+    <section class="field-row" style="justify-content: flex-end">
+    <button onclick="y32infoclose()">Cancel</button>
+    </section>
+  </div>
+</div>
+</dialog>
+<button onclick="y32photo()">Images</button> <button onclick="y32info()">Data Sheet</button>
+<br><br>
+<script>
+function y32photo() {
+  document.getElementById("y32-dialog-box").showModal();
+}
+function y32close() {
+  document.getElementById("y32-dialog-box").close();
+}
+function y32info() {
+  document.getElementById("y32-info-box").showModal();
+}
+function y32infoclose() {
+   document.getElementById("y32-info-box").close();
+}
+</script>
+<ul class="tree-view">
+  <li>Build Artifacts</li>
+  <li>
+    <details>
+      <summary>Suspension</summary>
+      <ul>
+        <li>BC BR coilovers (Y33/Q45) with Swift Springs 40k</li>
+        <li>Nagisa Auto rear upper control arm</li>
+        <li>Nagisa Auto rear upper and lower toe arms</li>
+      </ul>
+    </details>
+  </li>
+  <li>
+    <details>
+      <summary>Wheels</summary>
+      <ul>
+        <li>Napre Medusa 17 9j/10j</li>
+        <li>Nismo security lock lug nuts</li>
+      </ul>
+    </details>
+  </li>
+  <li>
+    <details>
+      <summary>Drivetrain</summary>
+      <ul>
+        <li>Blitz Power Air SUS Intake</li>
+        <li>Junction Produce Type II Muffler</li>
+        <li>Nismo Oil Cap</li>
+        <li>Nismo Radiator Cap</li>
+      </ul>
+    </details>
+  </li>
+  <li>
+    <details>
+      <summary>Exterior</summary>
+      <ul>
+        <li>Nismo clear winker lens</li>
+        <li>One-off clear Cedric (Ichikoh) turn lens</li>
+        <li>Autbahn golden side mirrors</li>
+        <li>D.speed clear tail lights</li>
+      </ul>
+    </details>
+  </li>
+  <li>
+    <details>
+      <summary>Interior</summary>
+      <ul>
+        <li>Addzest road warrior head unit</li>
+        <li>Junction Produce fusa knot</li>
+        <li>Mr. Grip cigarette lighter flowers</li>
+        <li>望伍津 rear view mirror<li>
+      </ul>
+    </details>
+  </li>
+</ul>
+<br>
+<hr />
+<p>
+<table style="background-color: #c0c0c0">
+<tr>
+<td>Make</td>
+<td>Subaru</td>
+</tr>
+<tr>
+<td>Model</td>
+<td>BRZ</td>
+</tr>
+<tr>
+<td>Year of Mfg</td>
+<td>2020</td>
+</tr>
+<tr>
+<td>Chassis Code</td>
+<td>ZC6</td>
+</tr>
+</table>
+</p>
+<dialog id="zc6-dialog-box" style="border: none !important; padding: 0">
+<div class="window" id="zc6-dialog" role="dialog" aria-labelledby="zc6-dialog-title" style="max-width: 800px;">
+  <div class="title-bar">
+    <div class="title-bar-text" id="zc6-dialog-title">Images - Subaru BRZ</div>
+    <div class="title-bar-controls">
+      <button aria-label="Close" onclick="zc6close()"></button>
+    </div>
+  </div>
+  <div class="window-body">
+  📸: <a href="https://instagram.com/brennanxwright">Brennan Wright</a><br>
+    <div class="sunken-panel" style="max-height: 400px">
+    <img style="max-height: 100%; max-width: 100%; object-fit: contain" src="img/b2.zc6.crop.jpeg"/>
+    </div>
+    <br>
+    <section class="field-row" style="justify-content: flex-end">
+    <button onclick="zc6close()">Cancel</button>
+    </section>
+  </div>
+</div>
+</dialog>
+<button onclick="zc6photo()">Images</button><br><br>
+<script>
+function zc6photo() {
+  document.getElementById("zc6-dialog-box").showModal();
+}
+function zc6close() {
+   document.getElementById("zc6-dialog-box").close();
+}
+</script>
+<ul class="tree-view">
+  <li>Build Artifacts</li>
+  <li>
+    <details>
+      <summary>Suspension</summary>
+      <ul>
+        <li>326 Power coilovers 60k spring rate</li>
+        <li>326 Power rear toe arms</li>
+        <li>Megan Racing V2 FLCA</li>
+        <li>RacerX tie rods</li>
+        <li>RacerX RUCA</li>
+        <li>Partsshopmax RLCA painted purple</li>
+      </ul>
+    </details>
+  </li>
+  <li>
+    <details>
+      <summary>Wheels</summary>
+      <ul>
+        <li>SSR x Watanabe Super Eight RS</li>
+        <ul>
+            <li>Diameter: 18</li>
+            <li>Width: 10.5</li>
+            <li>Offset: -15</li>
+        </ul>
+        <li>T-Demand 5X114.3 front hubs</li>
+        <li>STI Group N 5X114.3 rear hubs</li>
+        <li>Project Kics purple lug nuts</li>
+      </ul>
+    </details>
+  </li>
+  <li>
+    <details>
+      <summary>Drivetrain</summary>
+      <ul>
+        <li>Kakimoto GT1.0Z</li>
+        <li>JDL Dual Resonated Front Pipe</li>
+        <li>SuperNow Oil Cap</li>
+        <li>Billions Radiator Cap</li>
+      </ul>
+    </details>
+  </li>
+  <li>
+    <details>
+      <summary>Exterior</summary>
+      <ul>
+        <li>One-off clear tail lights</li>
+        <li>One-off clear reverse lamp</li>
+        <li>Chargespeed led mirrors</li>
+        <li>Autbahn purple side mirrors</li>
+      </ul>
+    </details>
+  </li>
+  <li>
+    <details>
+      <summary>Interior</summary>
+      <ul>
+        <li>Mr. Grip cherry blossom shift knob</li>
+        <li>Purple handbrake button</li>
+        <li>Napolex Broadway purple mirror (JPN)</li>
+        <li>Clazzio custom seat covers</li>
+      </ul>
+    </details>
+  </li>
+</ul>
+</div>
+</div>
+</body>
+</html>
